@@ -1,0 +1,16 @@
+f = open("word counter.txt", "r")
+c = []
+for x in f:
+  print(x)
+  c.append(x.split(' '))
+#c
+print(c)
+#no of words
+d=0
+for i in range(len(c)):
+  d=d+1
+
+d
+
+#displays the no of words
+print(len(c))
